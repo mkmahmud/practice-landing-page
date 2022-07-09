@@ -1,0 +1,50 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(26, 25, 25);
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+/* Header */
+nav{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* align-content: space-between; */
+    /* background: yellow; */
+    padding: 10px 40px;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.menu ul{
+    display: inline-flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+
+.signUP{
+    background: #5D5DFF;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
