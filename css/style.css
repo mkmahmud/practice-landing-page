@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+:root{
+  --main-color:#5D5DFF;
+}
+
 body{
     background: rgb(26, 25, 25);
     font-family: 'Roboto', sans-serif;;
@@ -40,7 +44,7 @@ nav{
 }
 
 .signUP{
-    background: #5D5DFF;
+    background: var(--main-color);
 }
 
 .menu ul li a{
@@ -56,30 +60,88 @@ main{
     text-align: center;
     color: white;
 }
-/* Hero Section */
-.hero{
+
+/* Section */
+section{
     margin-top: 50px;
 }
-.hero h2{
+
+/* Section Title */
+.section-title h2{
     font-size: 40px;
     padding: 20px 0px;
 }
-.hero p{
+.section-title p{
     padding: 0 20%;
 }
-.hero-buttons{}
+/* Hero Section */
 .hero-buttons ul{
     list-style: none;
     padding: 30px 0px;
 }
 .hero-buttons ul li{
     display: inline-block;
-    background: #5d5dff;
+    background: var(--main-color);
     padding: 10px 35px;
 }
 .hero-buttons ul li a{
     color: white;
     text-decoration: none;
 }
-.vedio{}
-.vedio video{}
+/* Features */
+
+.features ul{
+    list-style: none;
+}
+.features ul li{
+    display: inline-block;
+    /* background: #777; */
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+}
+.features ul li i{
+    font-size: 42px;
+    background: var(--main-color);
+    padding: 10px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.features ul li h4{
+    padding: 15px 0px;
+    font-size: 17px;
+}
+
+/* Product & solutions  */
+.singel-solution{
+    display: flex;
+    margin-top: 50px;
+}
+.singel-solution .left-side{
+    width: 50%;
+    text-align: left;
+    padding: 5px 20px;
+}
+.singel-solution .left-side p:first-child{
+    color: var(--main-color);
+}
+.singel-solution .left-side h3{
+    font-size: 29px;
+}
+.singel-solution .left-side p{
+    padding: 10px 0px;
+}
+.singel-solution .left-side ul li{
+    list-style: square;
+}
+.singel-solution .right-side{
+    width: 50%;
+}
+.singel-solution .right-side img{
+    width: 100%;
+    padding: 25px;
+    height: 250px;
+}
