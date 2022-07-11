@@ -48,3 +48,38 @@ nav{
     color: white;
     font-size: 20px;
 }
+
+/* Main Section  */
+main{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+/* Hero Section */
+.hero{
+    margin-top: 50px;
+}
+.hero h2{
+    font-size: 40px;
+    padding: 20px 0px;
+}
+.hero p{
+    padding: 0 20%;
+}
+.hero-buttons{}
+.hero-buttons ul{
+    list-style: none;
+    padding: 30px 0px;
+}
+.hero-buttons ul li{
+    display: inline-block;
+    background: #5d5dff;
+    padding: 10px 35px;
+}
+.hero-buttons ul li a{
+    color: white;
+    text-decoration: none;
+}
+.vedio{}
+.vedio video{}
