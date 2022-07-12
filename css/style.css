@@ -145,3 +145,41 @@ section{
     padding: 25px;
     height: 250px;
 }
+
+/* Testimonials  */
+.testimonials{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+.singel-testimonial{
+    margin: 10px;
+    text-align: left;
+    padding: 25px;
+}
+.singel-testimonial img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid var(--main-color);
+}
+.tes-img-dot{
+    position: relative;
+}
+.tes-img-dot::before{
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    top: 0px;
+    left: 60px;
+    background-color: var(--main-color);
+}
+.singel-testimonial p{
+    padding: 25px 0px;
+}
+.singel-testimonial strong a{
+    text-decoration: none;
+    color: var(--main-color);
+}
