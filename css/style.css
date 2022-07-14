@@ -209,18 +209,19 @@ section{
     display: flex;
     /* justify-content: space-around; */
     text-align: left;
+    position: relative;
+    overflow: hidden;
 }
+
 .subscribe-text{
     width: 50%;
 }
 .subscribe-text h2{
     font-size: 40px;
 }
-.subscribe-text p{}
 .subscribe-form{
     width: 50%;
 }
-.subscribe-form form{}
 #email{
     width: 66%;
     /* height: 30px; */
@@ -240,4 +241,69 @@ section{
     font-size: 17px;
     color: var(--main-color);
     font-weight: 700;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    color: whitesmoke;
+}
+.footer .footer-left{
+    width: 40%;
+    padding: 25px;
+}
+.footer .footer-left img{
+    padding: 20px 0px;
+    width: 90px;
+}
+.footer .footer-right{
+    width: 60%;
+    padding: 25px;
+}
+.usefull-links{
+    display: flex;
+    justify-content: space-around;
+}
+.singel-usefull-link{
+    padding: 50px 0px;
+}
+.singel-usefull-link h3{
+    font-size: 22px;
+}
+.singel-usefull-link ul{
+    list-style: none;
+}
+.singel-usefull-link ul li{
+    padding: 8px 0px;
+    border-bottom: 2px solid #5658dd73;
+    border-radius: 0px 0px 10px 0px;
+}
+.singel-usefull-link ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* Copyright & Social */
+.copyright-social{
+    display: flex;
+    /* color: white; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background: white;
+}
+.copyright p{
+    color: #000000;
+}
+.social{
+    display: flex;
+}
+.social p{
+    margin-left: 20px;
+}
+.social p a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.social p a i{
+    font-size: 18px;
 }
