@@ -41,4 +41,7 @@
     .subscribe-form{
         width: 100%;
     }
+    .usefull-links{
+        display: block;
+    }
   }
