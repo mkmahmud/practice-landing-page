@@ -1,0 +1,44 @@
+/* Mediam  */
+
+@media only screen and (max-width: 768px) {
+    nav{
+        display: block;
+        text-align: center;
+    }
+    .logo{
+        padding: 20px 0px;
+    }
+    .features ul li{
+        display: block;
+        text-align: center;
+        width: 90%;
+    }
+    .testimonials{
+        flex:4;
+    
+    }
+    .singel-testimonial:nth-child(0){
+        flex: 1;
+    }
+    .singel-testimonial:nth-child(1){
+        flex: 2;
+    }
+    .singel-testimonial:nth-child(2){
+        flex: 1;
+    }
+    .singel-testimonial{
+        height: 400px;
+    }
+
+    .subscribe{
+        display: block;
+        text-align: center;
+    }
+    .subscribe-text{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .subscribe-form{
+        width: 100%;
+    }
+  }
